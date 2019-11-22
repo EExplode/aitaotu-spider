@@ -20,5 +20,5 @@ python库：
 	
 result：
 --------
-![](https://github.com/EExplode/aitaotu-spider/raw/master/1.png)
-![](https://github.com/EExplode/aitaotu-spider/raw/master/2.png)
+![](https://github.com/EExplode/aitaotu-spider/raw/master/result1.png)
+![](https://github.com/EExplode/aitaotu-spider/raw/master/result2.png)
