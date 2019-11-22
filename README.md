@@ -18,5 +18,7 @@ python库：
 * pages = 1               # 爬取页数
 * path = 'C:\\photos\\'   # 保存路径
 	
-爬取效果：
+result：
 --------
+![](https://github.com/EExplode/aitaotu-spider/raw/master/result1.png)
+![](https://github.com/EExplode/aitaotu-spider/raw/master/result2.png)
