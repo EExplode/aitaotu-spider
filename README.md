@@ -6,10 +6,9 @@
 python库：
 	requests、BeautifuSoup
 	
-运行，设置爬取参数：
+设置爬取参数：
 	photo_type = 'dmtp'  	# 资源类型
 	pages = 1               # 爬取页数
 	path = 'C:\\photos\\'   # 保存路径
 	
 爬取效果：
-	
