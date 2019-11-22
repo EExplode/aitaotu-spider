@@ -10,7 +10,7 @@
 python库：
 ---------
 * requests
-* BeautifuSoup
+* BeautifulSoup
 	
 设置爬取参数：
 ------------
