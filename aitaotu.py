@@ -1,9 +1,13 @@
 import requests
 from bs4 import BeautifulSoup
 
-photo_type = 'dmtp'     # 资源类型
-pages = 1               # 爬取页数
-path = 'C:\\photos\\'   # 保存路径
+photo_type = 'dmtp'  # 资源类型
+pages = 1  # 爬取页数
+path = 'C:\\photos\\'  # 保存路径
+index = 1
+website = 'https://www.aitaotu.com'
+headers = {'referer': 'https://www.aitaotu.com',
+           'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'}
 
 
 def save_jpg(url):
@@ -44,13 +48,13 @@ def paser_url_1(url):
         paser_url_2(url_2)
 
 
-if __name__ == '__main__':
-    index = 1
-    website = 'https://www.aitaotu.com'
-    headers = {'referer': 'https://www.aitaotu.com',
-               'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'}
+def main():
     url_1 = 'https://www.aitaotu.com/' + photo_type + '/'
     for i in range(0, pages):
         print('爬取第' + str(i + 1) + '个页面：')
         paser_url_1(url_1)
         url_1 = 'https://www.aitaotu.com/' + photo_type + '/list_' + str(i + 2) + '.html'
+
+
+if __name__ == '__main__':
+    main()
